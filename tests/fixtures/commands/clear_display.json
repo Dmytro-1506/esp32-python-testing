@@ -1,0 +1,6 @@
+{
+  "requestId": "test-clear-display-001",
+  "type": "command",
+  "command": "clearDisplay",
+  "parameters": {}
+}

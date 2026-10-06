@@ -1,0 +1,6 @@
+{
+  "requestId": "test-reset-001",
+  "type": "command",
+  "command": "reset",
+  "parameters": {}
+}

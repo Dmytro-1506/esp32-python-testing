@@ -1,0 +1,6 @@
+{
+  "requestId": "test-stop-sound-001",
+  "type": "command",
+  "command": "stopSound",
+  "parameters": {}
+}

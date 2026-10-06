@@ -1,0 +1,4 @@
+{
+  "requestId": "test-invalid-json-001",
+  "type": "command",
+  "command": "ping",

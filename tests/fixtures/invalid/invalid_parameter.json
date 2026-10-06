@@ -1,0 +1,14 @@
+{
+  "requestId": "test-invalid-parameter-001",
+  "type": "command",
+  "command": "setLED",
+  "parameters": {
+    "state": "on",
+    "color": {
+      "red": 255,
+      "green": 0,
+      "blue": 0
+    },
+    "brightness": 150
+  }
+}

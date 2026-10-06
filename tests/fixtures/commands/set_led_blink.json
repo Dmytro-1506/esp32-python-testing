@@ -1,0 +1,9 @@
+{
+  "requestId": "test-led-blink-001",
+  "type": "command",
+  "command": "setLEDBlink",
+  "parameters": {
+    "state": "on",
+    "interval": 500
+  }
+}

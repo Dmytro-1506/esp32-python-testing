@@ -1,0 +1,4 @@
+{
+  "requestId": "test-invalid-request-001",
+  "command": "ping"
+}

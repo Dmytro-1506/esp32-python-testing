@@ -1,0 +1,14 @@
+{
+  "requestId": "test-led-pulse-001",
+  "type": "command",
+  "command": "setLEDPulse",
+  "parameters": {
+    "state": "on",
+    "interval": 500,
+    "colors": [
+      [100, 150, 200],
+      [150, 100, 100],
+      [100, 255, 100]
+    ]
+  }
+}

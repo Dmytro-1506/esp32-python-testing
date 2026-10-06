@@ -1,0 +1,13 @@
+{
+  "requestId": "test-image-001",
+  "type": "command",
+  "command": "showImage",
+  "parameters": {
+    "x": 80,
+    "y": 30,
+    "width": 64,
+    "height": 64,
+    "format": "RGB565",
+    "dataLength": 8192
+  }
+}

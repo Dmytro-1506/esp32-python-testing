@@ -1,0 +1,6 @@
+{
+  "requestId": "test-invalid-command-001",
+  "type": "command",
+  "command": "unknownCommand",
+  "parameters": {}
+}

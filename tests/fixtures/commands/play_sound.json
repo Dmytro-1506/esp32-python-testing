@@ -1,0 +1,24 @@
+{
+  "requestId": "test-sound-001",
+  "type": "command",
+  "command": "playSound",
+  "parameters": {
+    "sequence": [
+      {
+        "frequency": 440,
+        "duration": 100,
+        "delay": 0
+      },
+      {
+        "frequency": 554,
+        "duration": 100,
+        "delay": 0
+      },
+      {
+        "frequency": 659,
+        "duration": 300,
+        "delay": 0
+      }
+    ]
+  }
+}
