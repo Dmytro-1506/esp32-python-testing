@@ -70,6 +70,12 @@ Create a virtual environment:
 python -m venv .venv
 ```
 
+Activate the virtual environment on Bash:
+
+```bash
+source .venv/Scripts/activate
+```
+
 Activate the virtual environment on Windows:
 
 ```powershell
@@ -295,6 +301,88 @@ Planned improvements include:
 - Extend protocol documentation.
 - Add additional integration scenarios.
 - Introduce automated testing infrastructure when a suitable ESP32 test environment is available.
+
+## Running Individual Tests
+
+To run a specific test:
+
+### Ping
+
+```bash
+python -m unittest tests.test_commands.TestCommands.test_ping -v
+```
+
+### Get Status
+
+```bash
+python -m unittest tests.test_commands.TestCommands.test_get_status -v
+```
+
+### Set LED
+
+```bash
+python -m unittest tests.test_commands.TestCommands.test_set_led -v
+```
+
+### Set LED Blink
+
+```bash
+python -m unittest tests.test_commands.TestCommands.test_set_led_blink -v
+```
+
+### Set LED Pulse
+
+```bash
+python -m unittest tests.test_commands.TestCommands.test_set_led_pulse -v
+```
+
+### Show Text
+
+```bash
+python -m unittest tests.test_commands.TestCommands.test_show_text -v
+```
+
+### Show Image
+
+```bash
+python -m unittest tests.test_commands.TestCommands.test_show_image -v
+```
+
+### Clear Display
+
+```bash
+python -m unittest tests.test_commands.TestCommands.test_clear_display -v
+```
+
+### Clear Display Area
+
+```bash
+python -m unittest tests.test_commands.TestCommands.test_clear_display_area -v
+```
+
+### Play Sound
+
+```bash
+python -m unittest tests.test_commands.TestCommands.test_play_sound -v
+```
+
+### Stop Sound
+
+```bash
+python -m unittest tests.test_commands.TestCommands.test_stop_sound -v
+```
+
+### Get User Answer
+
+```bash
+python -m unittest tests.test_commands.TestCommands.test_get_user_answer -v
+```
+
+### Reset
+
+```bash
+python -m unittest tests.test_commands.TestCommands.test_reset -v
+```
 
 ## License
 

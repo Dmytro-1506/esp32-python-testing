@@ -3,11 +3,11 @@
   "type": "command",
   "command": "showImage",
   "parameters": {
-    "x": 80,
-    "y": 30,
-    "width": 64,
-    "height": 64,
+    "x": 100,
+    "y": 25,
+    "width": 120,
+    "height": 120,
     "format": "RGB565",
-    "dataLength": 8192
+    "dataLength": 28800
   }
 }
