@@ -1,14 +1,13 @@
 {
-  "requestId": "test-led-001",
-  "type": "command",
-  "command": "setLED",
-  "parameters": {
-    "state": "on",
-    "color": {
-      "red": 255,
-      "green": 0,
-      "blue": 0
+  "command":"setLED",
+  "parameters":{
+    "brightness":100,
+    "color":{
+      "blue":255,
+      "green":255,
+      "red":255},
+      "state":"on"
     },
-    "brightness": 80
-  }
+  "requestId":"1851a772-5575-43d3-a94e-a21f2e72d9f8",
+  "type":"command"
 }

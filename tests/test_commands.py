@@ -149,7 +149,7 @@ class TestCommands(unittest.TestCase):
         width = command["parameters"]["width"]
         height = command["parameters"]["height"]
         
-        image_data = load_image("Stefan_Schwope.jpg", width, height)
+        image_data = load_image("Macontic-Icon-128x128.jpg", width, height)
         
         response = self.client.send_image_command(
             command,

@@ -304,6 +304,12 @@ Planned improvements include:
 
 ## Running Individual Tests
 
+Activate the virtual environment on Bash:
+
+```bash
+source .venv/Scripts/activate
+```
+
 To run a specific test:
 
 ### Ping

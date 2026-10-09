@@ -3,19 +3,19 @@
   "type": "command",
   "command": "showText",
   "parameters": {
-    "text": "System ready",
+    "text": "Eine Response wird vom ESP32 als Antwort auf einen Command an den Client gesendet.",
     "x": 10,
-    "y": 30,
+    "y": 28,
     "fontSize": 18,
     "textColor": {
-      "red": 255,
-      "green": 255,
-      "blue": 255
+      "red": 200,
+      "green": 200,
+      "blue": 200
     },
     "backgroundColor": {
-      "red": 0,
-      "green": 0,
-      "blue": 0
+      "red": 20,
+      "green": 20,
+      "blue": 20
     }
   }
 }

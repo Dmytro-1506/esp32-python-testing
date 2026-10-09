@@ -19,7 +19,18 @@ class ESP32Client:
             sock.connect((self.host, self.port))
             sock.sendall(data)
 
-            response = sock.recv(4096)
+            response = b""
+
+            while not response.endswith(b"\n"):
+                chunk = sock.recv(4096)
+
+                if not chunk:
+                    break
+
+                response += chunk
+
+        print("RAW RESPONSE:", response)
+        print("DECODED RESPONSE:", response.decode("utf-8"))
 
         return json.loads(response.decode("utf-8"))
     
